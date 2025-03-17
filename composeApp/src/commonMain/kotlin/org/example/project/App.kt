@@ -38,7 +38,7 @@ fun App() {
             navigationIcon = {
               IconButton(
                 onClick = {
-
+                  // navigator.popBackstack()
                 }
               ) {
                 Icon(
@@ -59,5 +59,5 @@ fun App() {
   }
 }
 
-
+// @Composable Video Cap. 36, Time 15:54
 

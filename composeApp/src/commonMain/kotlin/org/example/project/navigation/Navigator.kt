@@ -16,7 +16,7 @@ import org.example.project.presentacion.ExpensesViewModel
 import org.example.project.ui.ExpensesScreen
 
 @Composable
-fun Navigator(navigator: Navigator) {
+fun Navigation(navigator: Navigator) {
   val colors = getColorsTheme()
   val viewModel = viewModel(modelClass = ExpensesViewModel::class) {
     ExpensesViewModel(ExpenseRepoImpl(ExpenseManager))
